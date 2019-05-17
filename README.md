@@ -1,0 +1,1 @@
+This project is my first attempt on doing a web page. Actuallty, I will be replicating a famous web page, to test what I have learn so far.
