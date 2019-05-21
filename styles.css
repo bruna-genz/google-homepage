@@ -13,6 +13,8 @@ header {
 
 .heading {
     text-align: left;
+    position: relative;
+    word-spacing: 15px;
 }
 
 .span-heading {
@@ -21,6 +23,11 @@ header {
 
 .account-logo {
     height: 40px;
+    vertical-align: middle;
+}
+
+.app-logo {
+    vertical-align: middle;
 }
 
 .google-logo {
@@ -40,6 +47,7 @@ header {
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
+    border: none;
     cursor: pointer;
     font-size: 14px;
     margin: 11px 4px;
@@ -50,11 +58,16 @@ header {
     background-color: #efefef;
 }
 
+.google-search-buttom:hover {
+    border: 1px solid #C6C6C6;
+}
+
 .lucky-buttom {
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
     cursor: pointer;
+    pointer-events: auto;
     font-size: 14px;
     margin: 11px 4px;
     min-width: 54px;
@@ -62,6 +75,10 @@ header {
     text-align: center;
     height: 36px;
     background-color: #efefef;
+}
+
+.lucky-buttom:hover {
+    border: 1px solid #c6c6c6;
 }
 
 .border-border {
@@ -79,7 +96,10 @@ header {
     border-radius: 24px;
     z-index: 2;
     height: 47px;
-    margin: 0 50px 0 50px;
+}
+
+.border-search-box:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
 }
 
 .search-box {
@@ -107,10 +127,33 @@ header {
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-  }
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 20px;
+}
 
-  .span-footer {
-    float: right
-  }
+.canada {
+    position: relative;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ad {
+    position: relative;
+    padding-top: 10px;
+    padding-left: 30px;
+    word-spacing: 20px;
+    border-top: 1px solid #e4e4e4;
+    color: rgba(22, 21, 21, 0.651);
+}
+
+
+.span-footer {
+    position: relative;
+    float: right;
+    word-spacing: 20px;
+    padding-right: 20px;
+}
